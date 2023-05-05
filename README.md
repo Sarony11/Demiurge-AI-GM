@@ -16,6 +16,7 @@ The original idea es from [@yupiop12](https://twitter.com/yupiop12) and this is 
 - [AI GM Personalization Options](#ai-gm-personalization-options)
   - [Commands](#commands)
   - [Detailed Documentation](#detailed-documentation)
+- [Actual Challenges to Overcome](#actual-challenges-to-overcome)
 - [Screenshots](#screenshots)
 
 ## Why Demiurge AI GM?
@@ -85,7 +86,7 @@ The AI GM supports the following commands:
 
 Find detailed documentation for Demiurge AI GM in the [docs.md](https://raw.githubusercontent.com/Sarony11/Demiurge-AI-GM/main/docs.md) file.
 
-## Actual Challenges
+# Actual Challenges to Overcome
 - **4001 token limit:** to increase the prompt. At this moment, it is needed to remove some options from the configuration to be inside this limit and paste the prompt directly on ChatGPT.
 - **RPG system functionality not working:** For now all test have shown that there is not consistency on RPG system implementation. Prompt has to be improved for that.
 - **Character creation:** Although some kind of character creation process is implemented though `/character` it is not enough consistent, but trying to improve it I faced 4001 token limit.
