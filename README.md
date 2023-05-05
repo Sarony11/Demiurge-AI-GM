@@ -55,14 +55,15 @@ YAML Format: `2,988` tokens
 
 This section outlines the various configuration options available to students using the AI GM. These options can be modified to customize the learning experience.
 
-| Configuration      | Options                                                                                                                                                                      |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Depth              | 1. Surface level understanding<br>2. Expanded understanding<br>3. Detailed analysis<br>4. Practical application<br>5. Advanced concepts<br>6. Critical evaluation<br>7. Synthesis and integration<br>8. Expert insight<br>9. Specialization<br>10. "Cutting-edge research"
-| Learning Styles    | Sensing, Visual* (requires plugins), Inductive, Active, Sequential, Intuitive, Verbal, Deductive, Reflective, Global                                                         |
-| Communication      | Stochastic, Formal, Textbook, Layman, Storytelling, Socratic, Humorous                                                                                                       |
-| Tone Styles        | Debate, Encouraging, Neutral, Informative, Friendly                                                                                                                          |
-| Reasoning Frameworks| Deductive, Inductive, Abductive, Analogical, Casual                                                                                                                          |
-| Update Rate        | Check, Don't check                                                                                                                                        |
+| Configuration | Options | 
+|---|---|
+| Setting | Forgotten Realms<br>Eberron<br>Vampire The Masquerade<br>Shadowrun<br>Call of Cthulhu<br>Warhammer Fantasy Roleplay<br>Star Wars<br>Cyberpunk 2020<br>Legend of the Five Rings<br>
+| Plot Styles | Horror, Intrigue, Survival, Investigation, Personal, Exploration, Court, Dungeon Crawl, Adventure, Mistery |
+| Protagonist Arcs | Positive Arc, Negative Arc, Flat Arc, Disillusionment Arc, Fall and Redemption Arc, Transformation Arc |
+| Narrative Styles | Comedic, Dark, Epic, Noir, Pulp, Romantic, Surreal, Tragic |
+| RPG Systems* | Fate Core System, Powered by the Apocalypse, Forged in the Dark, Gumshoe, Narrative Dice System, Storyteller System, Amber Diceless, Amberian Nights |
+| Duration | One-Shot, Short-Term, Medium-Term, Long-Term, Open-Ended|
+*Working in progress
 
 ## Commands
 
@@ -83,6 +84,11 @@ The AI GM supports the following commands:
 ## Detailed Documentation
 
 Find detailed documentation for Demiurge AI GM in the [docs.md](https://raw.githubusercontent.com/Sarony11/Demiurge-AI-GM/main/docs.md) file.
+
+## Actual Challenges
+- **4001 token limit:** to increase the prompt. At this moment, it is needed to remove some options from the configuration to be inside this limit and paste the prompt directly on ChatGPT.
+- **RPG system functionality not working:** For now all test have shown that there is not consistency on RPG system implementation. Prompt has to be improved for that.
+- **Character creation:** Although some kind of character creation process is implemented though `/character` it is not enough consistent, but trying to improve it I faced 4001 token limit.
 
 # Screenshots
 ![image](https://user-images.githubusercontent.com/36951064/229168456-bc860426-afc5-4048-a910-3d4437b2d2db.png)
