@@ -1,29 +1,29 @@
-# Mr. Ranedeer: Your personalized AI Tutor!
+# Demiurge: Your personalized AI GM!
 
-Unlock the potential of GPT-4 with Mr. Ranedeer AI Tutor, a customizable prompt that delivers personalized learning experiences for users with diverse needs and interests.
+Unlock the potential of GPT-4 with Demiurge AI GM, a customizable prompt that delivers personalized RPG experiences for users who want to enjoy of rich solo-narrative experiences.
 
-Follow me on Twitter: [@yupiop12](https://twitter.com/yupiop12)
+The original idea es from [@yupiop12](https://twitter.com/yupiop12) and this is [Mr. Ranedeer AI Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) was his first idea which I encourage to follow because it is amazing.
 
 ## Table of Contents
-- [Mr. Ranedeer: Your personalized AI Tutor!](#mr-ranedeer-your-personalized-ai-tutor)
+- [Demiurge: Your personalized AI GM!](#demiurge-your-personalized-ai-gm)
   - [Table of Contents](#table-of-contents)
-  - [Why Mr. Ranedeer AI Tutor?](#why-mr-ranedeer-ai-tutor)
+  - [Why Demiurge AI GM?](#why-mr-demiurge-ai-gm)
   - [Requirements and Compatibility](#requirements-and-compatibility)
     - [Recommended](#recommended)
     - [Not Recommended](#not-recommended)
   - [Quick Start Guide](#quick-start-guide)
 - [Prompt Formats](#prompt-formats)
-- [AI Tutor Personalization Options](#ai-tutor-personalization-options)
+- [AI GM Personalization Options](#ai-gm-personalization-options)
   - [Commands](#commands)
   - [Detailed Documentation](#detailed-documentation)
 - [Screenshots](#screenshots)
 
-## Why Mr. Ranedeer AI Tutor?
+## Why Demiurge AI GM?
 
-Mr. Ranedeer AI Tutor allows you to:
-- Adjust the depth of knowledge to match your learning needs
-- Customize your learning style, communication type, tone, and reasoning framework
-- Create the ultimate AI tutor tailored just for you
+Demiurge AI GM allows you to:
+- Adjust the duration of your RPG campaign to match your needs.
+- Customize the setting, plot, protagonist arc and RPG system
+- Create the ultimate AI GM tailored just for you
 
 ## Requirements and Compatibility
 
@@ -40,20 +40,20 @@ Mr. Ranedeer AI Tutor allows you to:
 
 1. Visit [ChatGPT](https://chat.openai.com/chat)
 2. Select the GPT-4 (or above) model
-3. Copy and paste the contents of [Mr_Ranedeer.json](https://raw.githubusercontent.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/main/Mr_Ranedeer.json) into the prompt
-4. Let Mr. Ranedeer guide you through the configuration process
-5. Start learning!
+3. Copy and paste the contents of [demiurge-ai-gm.yaml](https://raw.githubusercontent.com/Sarony11/Demiurge-AI-GM/main/demiurge-ai-gm.yaml) into the prompt
+4. Let Demiurge guide you through the configuration process
+5. Start enjoying from a customized RPG solo-experience!
 
 # Prompt Formats
-Originally, Mr. Ranedeer was written in `json` format. Now it is also available in `yaml` format which costs ~1.4x less than the `json` format.
+Originally, Mr.-Ranedeer-AI-Tutor was written in `json` format. I have preffered to focus only on `yaml` format which costs ~1.4x less than the `json` format.
 
 JSON Format: `4,267` tokens
 
 YAML Format: `2,988` tokens
 
-# AI Tutor Personalization Options
+# AI GM Personalization Options
 
-This section outlines the various configuration options available to students using the AI Tutor. These options can be modified to customize the learning experience.
+This section outlines the various configuration options available to students using the AI GM. These options can be modified to customize the learning experience.
 
 | Configuration      | Options                                                                                                                                                                      |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -66,15 +66,15 @@ This section outlines the various configuration options available to students us
 
 ## Commands
 
-The AI Tutor supports the following commands:
+The AI GM supports the following commands:
 
-- `/feedback`: Request feedback from the AI Tutor.
 - `/test`: Request a test to assess your knowledge and understanding.
-- `/config`: Update your AI Tutor configuration/preferences.
-- `/plan`: Create a lesson plan based on your preferences.
+- `/config`: Update your AI GM configuration/preferences.
+- `/create`: Create a full RPG campaign based on your preferences.
+- `/character`: Starts a process to create a relevant character for the RPG campaign.
 - `/search`: Search for specific information (*requires plugins*).
-- `/start`: Start the lesson plan.
-- `/stop`: Stop the lesson plan.
+- `/start`: Start the RPG campaign.
+- `/stop`: Stop the RPG campaign plan.
 - `/continue`: Continue the output if it was cut.
 
 *The search command requires plugins.
@@ -82,7 +82,7 @@ The AI Tutor supports the following commands:
 
 ## Detailed Documentation
 
-Find detailed documentation for Mr. Ranedeer AI Tutor in the [docs.md](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/blob/master/docs.md) file.
+Find detailed documentation for Demiurge AI GM in the [docs.md](https://raw.githubusercontent.com/Sarony11/Demiurge-AI-GM/main/docs.md) file.
 
 # Screenshots
 ![image](https://user-images.githubusercontent.com/36951064/229168456-bc860426-afc5-4048-a910-3d4437b2d2db.png)
